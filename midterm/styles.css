@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #232323;
+    background-color: #0073ff5b;
+  }
+
+  header {
+    position: relative;
+  }
+  
+  .navigation {
+    background-color: #2e3192;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navigation ul li a:hover {
+    background-color: #2e3192;
+  }
+  
+  
+  header img {
+    width: 100%;
+  }
+  
+  header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  article {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  article img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+  }
+  
+  .facts {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 80%;
+    margin: 50px auto;
+  }
+ 
+  .facts h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .facts ul {
+    list-style-type: square;
+  }
+  
+  .form {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .form form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .form label {
+    display: block;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #2e3192
+  }
+  
+  @media screen and (max-width: 768px) {
+    article img {
+      float: none;
+      margin-right: 0;
+      margin-bottom: 100px;
+    }
+  
+    .facts ul {
+      list-style-type: disc;
+    }
+  }
